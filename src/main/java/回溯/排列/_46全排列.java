@@ -11,7 +11,6 @@ public class _46全排列 {
         boolean[] used = new boolean[nums.length];
         backtracking(nums,used);
         return res;
-
     }
     void backtracking(int[] nums,boolean[] used) {
         if(path.size() == nums.length) {
