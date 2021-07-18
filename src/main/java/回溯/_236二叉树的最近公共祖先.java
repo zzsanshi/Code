@@ -1,9 +1,6 @@
-package 回溯._236公共祖先问题;
+package 回溯;
 
 
-
-import java.util.ArrayList;
-import java.util.List;
 //后序遍历
 public class _236二叉树的最近公共祖先 {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
@@ -28,10 +25,5 @@ public class _236二叉树的最近公共祖先 {
     }
 }
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
-}
+
 

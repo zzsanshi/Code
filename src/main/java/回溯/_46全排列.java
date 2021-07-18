@@ -1,4 +1,4 @@
-package 回溯.排列;
+package 回溯;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +17,7 @@ public class _46全排列 {
             res.add(new ArrayList<>(path));
             return;
         }
-        for (int i = 0; i < nums.length; i++) {
+        for (int i = 0; i < nums.length; i++) {//全排列从0开始,显示所有的组合
             if (used[i] == true) {
                 continue;
             }

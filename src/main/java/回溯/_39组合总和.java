@@ -6,6 +6,7 @@ import java.util.List;
 public class _39组合总和 {
     List<List<Integer>> res = new ArrayList<>();
     List<Integer> path = new ArrayList<>();
+
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         backtracking(candidates,target,0,0);
         return res;
@@ -22,7 +23,7 @@ public class _39组合总和 {
         for (int i = index; i < candidates.length; i++) {
             sum+=candidates[i];
             path.add(candidates[i]);
-            backtracking(candidates,target,sum,i);
+            backtracking(candidates,target,sum,i);////可重复读选择
             sum-=candidates[i];
             path.remove(path.size()-1);
         }
