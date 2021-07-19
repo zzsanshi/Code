@@ -21,5 +21,7 @@ public class ArrayToList {
         for(String str:array) {
             stringListC.add(str);
         }
+        //不使用基本类型
+        List<String> list = Arrays.asList("a","b","c");
     }
 }
