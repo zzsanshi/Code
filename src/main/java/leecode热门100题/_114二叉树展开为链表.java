@@ -14,7 +14,6 @@ public class _114二叉树展开为链表 {
         TreeNode temp;
         TreeNode Dum = new TreeNode(-1);
         while(!stack.isEmpty()) {
-
             temp = stack.removeFirst();
             if(temp.right != null) {
                 stack.addFirst(temp.right);

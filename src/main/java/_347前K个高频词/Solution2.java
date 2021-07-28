@@ -8,7 +8,7 @@ public class Solution2 {
         int k = 10;
         Map<Integer, Integer> map = new HashMap<Integer, Integer>();
         for (int i = 0; i < nums.length; i++) {
-                map.put(nums[i], map.getOrDefault(nums[i],0) + 1);
+            map.put(nums[i], map.getOrDefault(nums[i], 0) + 1);
         }
 
         //小顶堆
@@ -32,6 +32,6 @@ public class Solution2 {
         for (int i = 0; i < k; i++) {
             result[i] = queue.poll()[0];
         }
-                }
     }
+}
 
