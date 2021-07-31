@@ -15,8 +15,7 @@ import java.util.Arrays;
 * @since JDK 14
 */
 public class _322零钱兑换 {
-    int res = Integer.MAX_VALUE;
-    public int coinChange(int[] coins, int amount) {
+        public int coinChange(int[] coins, int amount) {
         int max = amount + 1;
         int[] dp = new int[amount + 1];
         Arrays.fill(dp, max);
