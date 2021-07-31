@@ -1,7 +1,7 @@
 package 剑指;
 
 public class _12矩阵中的路径 {
-    //回溯
+    //代码回想录.回溯
     public boolean exist(char[][] board, String word) {
         char[] words = word.toCharArray();
         int m = board.length, n = board[0].length;

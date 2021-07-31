@@ -7,7 +7,6 @@ public class TestScanner {
             int m = cin.nextInt();
             int n = cin.nextInt();
             System.out.println(m+n);
-
         }
     }
 }

@@ -18,7 +18,6 @@ public class _03数组中重复的数字 {
     }
     public int find2(int[] nums) {
         Set<Integer> map = new HashSet<>();
-
         for (int i = 0; i < nums.length; i++) {
             if(!map.add(nums[i])) {
                 return nums[i];
