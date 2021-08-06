@@ -21,6 +21,8 @@ public class Test大数 {
         char ch2='a';
         System.out.println(" ch1="+ch1);
         System.out.println(" ch2="+ch2);
+        char c;
+        c = 'a';
 
     }
 }

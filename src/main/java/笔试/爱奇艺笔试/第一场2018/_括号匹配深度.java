@@ -1,4 +1,4 @@
-package 爱奇艺笔试.第一场2018;
+package 笔试.爱奇艺笔试.第一场2018;
 
 import java.util.LinkedList;
 import java.util.Scanner;

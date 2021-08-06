@@ -1,4 +1,4 @@
-package 爱奇艺笔试.第一场2018;
+package 笔试.爱奇艺笔试.第一场2018;
 /**
  * Description:
  * 考虑定义在两正整数上的函数SSR(平方根之和的平方):SSR(A, B) = (sqrt(A) + sqrt(B))^2。

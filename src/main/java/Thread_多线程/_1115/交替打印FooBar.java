@@ -13,8 +13,6 @@ class FooBar {
     Lock lock = new ReentrantLock(true);
     private final Condition condition = lock.newCondition();
     volatile boolean flag = true;
-
-
     public FooBar(int n) {
         this.n = n;
     }

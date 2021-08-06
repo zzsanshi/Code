@@ -1,7 +1,5 @@
-package 爱奇艺笔试.第一场2018;
+package 笔试.爱奇艺笔试.第一场2018;
 
-import javax.swing.*;
-import java.math.BigDecimal;
 import java.util.Scanner;
 
 /**
