@@ -20,6 +20,7 @@ public class TestArraylist {
             }
         }
         System.out.println(list3);
+        System.out.println(5/3);
 //        for (Integer i : list3) {
 //            if (i % 2 == 0) {
 //                list3.remove(i);

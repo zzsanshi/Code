@@ -18,7 +18,8 @@ public class _平方根问题 {
             int A = cin.nextInt();
             int B = cin.nextInt();
             //求A*B是平方数
-            int res = 0;
+
+            int res=0;
             for (int i = 1; i <= A; i++) {
                 for (int j = 1; j <= B; j++) {
                     double t = Math.sqrt(i * j);

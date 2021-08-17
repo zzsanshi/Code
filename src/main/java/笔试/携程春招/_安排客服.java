@@ -9,7 +9,6 @@ public class _安排客服 {
 
         while(cin.hasNext()) {
             int n = cin.nextInt();
-
             int[][] tel = new int[n][2];
             for (int i = 0; i <n ; i++) {
                 String[] s= cin.next().split(",");

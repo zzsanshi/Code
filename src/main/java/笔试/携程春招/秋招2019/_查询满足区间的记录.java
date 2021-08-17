@@ -12,7 +12,6 @@ public class _查询满足区间的记录 {
             int[][] orders = new int[n][3];
             for (int i = 0; i < n; i++) {
                 String[] s = cin.nextLine().split(" ");
-
                 orders[i][0] = Integer.valueOf(s[0]);
                 orders[i][1] = Integer.valueOf(s[1]);
                 orders[i][2] = Integer.valueOf(s[2]);
