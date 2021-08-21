@@ -6,5 +6,9 @@ public class Test逻辑运算 {
         System.out.println(flag);
         System.out.println(flag1);
         System.out.println(flag2);
+
+
+        boolean flag3= true && false || true;
+        System.out.println(flag3);
     }
 }
