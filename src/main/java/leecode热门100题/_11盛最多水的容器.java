@@ -9,8 +9,5 @@ public class _11盛最多水的容器 {
                     Math.max(res, (j - i) * height[j--]);
         }
         return res;
-
-
-
     }
 }
